@@ -6,6 +6,8 @@ let friends = ["Brent", "Haley", "Ben", "Becca", "Eric"];
 for (let i = 0; i < friends.length; i++) {
     // Create var for each individual friend
     let friend = friends[i];
+    console.log(friend +": ")
+    
 
         for (let j = 99; j > 0; j--) {
             if (j > 2) {
